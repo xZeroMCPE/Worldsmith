@@ -1,0 +1,20 @@
+profiles:
+  default:
+    game-mode: ''
+    lock-weather: false
+    weather: clear
+    allow-building: true
+    allow-block-breaking: true
+    allow-pvp: true
+    allow-item-dropping: true
+    allow-item-pickup: true
+
+  lobby:
+    game-mode: adventure
+    lock-weather: true
+    weather: clear
+    allow-building: false
+    allow-block-breaking: false
+    allow-pvp: false
+    allow-item-dropping: false
+    allow-item-pickup: false

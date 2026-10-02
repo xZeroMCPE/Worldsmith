@@ -1,0 +1,19 @@
+config-version: 1
+
+teleport:
+  warmup-seconds: 0
+  cooldown-seconds: 0
+  cancel-on-move: true
+  cancel-on-damage: true
+
+lifecycle:
+  idle-check-seconds: 30
+  save-interval-minutes: 15
+
+routing:
+  join-world: ''
+  route-every-join: false
+  default-respawn-world: ''
+
+audit:
+  enabled: true

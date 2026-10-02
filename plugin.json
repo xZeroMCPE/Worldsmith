@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "name": "Worldsmith",
+  "version": "0.1.0",
+  "api": "^0.4",
+  "main": "XZeroMCPE\\Worldsmith\\Main",
+  "namespace": "XZeroMCPE\\Worldsmith",
+  "authors": ["xZeroMCPE"],
+  "dependencies": [],
+  "softDependencies": [],
+  "load": "WORLD_READY"
+}

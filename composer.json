@@ -1,0 +1,34 @@
+{
+  "name": "xzeromcpe/worldsmith",
+  "description": "World lifecycle and policy management for Bedriox.",
+  "type": "project",
+  "license": "GPL-3.0-only",
+  "require": {
+    "php": "^8.4"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.75",
+    "phpstan/phpstan": "^2.1",
+    "phpunit/phpunit": "^11.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "XZeroMCPE\\Worldsmith\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "XZeroMCPE\\Worldsmith\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit",
+    "analyse": "phpstan analyse --no-progress --memory-limit=512M",
+    "style": "php-cs-fixer check --diff --verbose",
+    "check": ["@test", "@analyse", "@style"]
+  },
+  "config": {
+    "allow-plugins": false,
+    "sort-packages": true
+  }
+}
